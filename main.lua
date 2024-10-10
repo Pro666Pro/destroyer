@@ -40,10 +40,11 @@ fireclickdetector(workspace.Lobby["Ghost"].ClickDetector)
 wait(0.5)
 game.ReplicatedStorage.Ghostinvisibilityactivated:FireServer()
 wait(0.5)
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yousuck780/fling-script-V2-Last-version/main/Added%20r15%20support!!!!"), true))()
+--Made By Kosovo#3784
 fling = true
+wait(0.5)
 while fling == true do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-810.1619873046875, 328.2247009277344, 3.9900460243225098)
 wait(0.1)
 end
---Made By Kosovo#3784
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yousuck780/fling-script-V2-Last-version/main/Added%20r15%20support!!!!"), true))()
