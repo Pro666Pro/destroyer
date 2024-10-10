@@ -36,28 +36,6 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-810.161
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Script By Nexer" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Fling Script By Kosovo" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
 wait(0.5)
-for i, v in pairs(game:GetService("ReplicatedStorage")._NETWORK:GetChildren()) do
-	    -- Check if the name contains the character '{'
-	    if v.Name:find("{") then
-	        local args = {
-	            [1] = "Titan"
-	        }
-	
-	        -- Check if v is a RemoteEvent and can FireServer
-	        if v:IsA("RemoteEvent") then
-	            v:FireServer(unpack(args))
-	        elseif v:IsA("RemoteFunction") then
-	            -- If it's a RemoteFunction, use InvokeServer
-	            local result = v:InvokeServer(unpack(args))
-	            print("Result from InvokeServer:", result)  -- Optional: Print the result
-	        else
-	            print("v is neither a RemoteEvent nor a RemoteFunction.")
-	        end
-	    end
-	end
-wait(0.5)
-game.ReplicatedStorage.TitanEvent:FireServer()
-wait(3)
 fireclickdetector(workspace.Lobby["Ghost"].ClickDetector)
 wait(0.5)
 game.ReplicatedStorage.Ghostinvisibilityactivated:FireServer()
@@ -65,6 +43,7 @@ wait(0.5)
 fling = true
 while fling == true do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-810.1619873046875, 328.2247009277344, 3.9900460243225098)
+wait(0.1)
 end
 --Made By Kosovo#3784
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yousuck780/fling-script-V2-Last-version/main/Added%20r15%20support!!!!"), true))()
