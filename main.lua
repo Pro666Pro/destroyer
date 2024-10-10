@@ -55,7 +55,7 @@ for i, v in pairs(game:GetService("ReplicatedStorage")._NETWORK:GetChildren()) d
 	end
 wait(0.5)
 game.ReplicatedStorage.TitanEvent:FireServer()
-wait(0.5)
+wait(3)
 fireclickdetector(workspace.Lobby["Ghost"].ClickDetector)
 wait(0.5)
 game.ReplicatedStorage.Ghostinvisibilityactivated:FireServer()
