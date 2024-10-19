@@ -32,7 +32,7 @@ local tpp = workspace.Lobby.Teleport2
 tp:Destroy()
 tpp:Destroy()
 wait(0.1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-810.1619873046875, 328.2247009277344, 3.9900460243225098)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Lobby.Teleport2.CFrame
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Script By Nexer" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Fling Script By Kosovo" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
 wait(0.5)
