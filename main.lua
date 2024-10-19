@@ -45,6 +45,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yousuck780/fling-scr
 fling = true
 wait(0.5)
 while fling == true do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-810.1619873046875, 328.2247009277344, 3.9900460243225098)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-810.1622924804688, 328.22467041015625, -7.813082695007324)
 wait(0.1)
 end
