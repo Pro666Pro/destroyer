@@ -9,7 +9,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text
 
 wait(0.5)
 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(286.3288269042969, 357.1037292480469, 34.369651794433594)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(288.4723205566406, 359.43145751953125, 34.71647644042969)
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Script By Nexer" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Fling Script By Kosovo" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
 wait(0.5)
@@ -18,6 +18,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yousuck780/fling-scr
 fling = true
 wait(0.5)
 while fling == true do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(286.3288269042969, 357.1037292480469, 34.369651794433594)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(288.4723205566406, 359.43145751953125, 34.71647644042969)
 wait(0.1)
 end
