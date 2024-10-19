@@ -1,4 +1,4 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Please Wait",Text = "Loading" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "Ok"})
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Please Wait lol",Text = "Loading" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "Ok"})
 
 local Noclip = nil
 local Clip = nil
