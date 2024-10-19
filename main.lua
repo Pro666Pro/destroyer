@@ -5,10 +5,6 @@ wait(0.5)
 game.ReplicatedStorage.Ghostinvisibilityactivated:FireServer()
 wait(0.5)
 
-loadstring(game:HttpGet('https://pastefy.app/RfTh3S92/raw'))()
-
-wait(5)
-
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Whoever made this script, thanks" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "Ok"})
 
 local Noclip = nil
@@ -43,7 +39,7 @@ local tpp = workspace.Lobby.Teleport2
 tp:Destroy()
 tpp:Destroy()
 wait(0.1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-810.1622924804688, 328.22467041015625, -7.813082695007324)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(273.7153015136719, 357.92523193359375, 33.86956024169922)
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Script By Nexer" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Fling Script By Kosovo" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
 wait(0.5)
@@ -52,6 +48,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yousuck780/fling-scr
 fling = true
 wait(0.5)
 while fling == true do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-810.1622924804688, 328.22467041015625, -7.813082695007324)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(273.7153015136719, 357.92523193359375, 33.86956024169922)
 wait(0.1)
 end
