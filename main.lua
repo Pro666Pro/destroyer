@@ -4,6 +4,7 @@ fireclickdetector(workspace.Lobby["Ghost"].ClickDetector)
 wait(0.5)
 game.ReplicatedStorage.Ghostinvisibilityactivated:FireServer()
 wait(0.5)
+fireclickdetector(workspace.Lobby["Dice"].ClickDetector)
 
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Whoever made this script, thanks" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "Ok"})
 
