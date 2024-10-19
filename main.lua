@@ -32,7 +32,7 @@ local tpp = workspace.Lobby.Teleport2
 tp:Destroy()
 tpp:Destroy()
 wait(0.1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-810.1622924804688, 328.22467041015625, -7.813082695007324)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(190.2952880859375, 359.137451171875, 14.048063278198242)
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Script By Nexer" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Credits",Text = "Fling Script By Kosovo" ,Duration = 10, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "alright dud"})
 wait(0.5)
@@ -45,6 +45,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yousuck780/fling-scr
 fling = true
 wait(0.5)
 while fling == true do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-810.1622924804688, 328.22467041015625, -7.813082695007324)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(190.2952880859375, 359.137451171875, 14.048063278198242)
 wait(0.1)
 end
